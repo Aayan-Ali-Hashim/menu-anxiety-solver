@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';  // ✅ Add useEffect
+import  { useState, useEffect } from 'react';  // ✅ Add useEffect
 import ImageUpload from './components/ImageUpload';
 import PreferencesForm from './components/preferencesForm';
 import Recommendations from './components/recommendations';
