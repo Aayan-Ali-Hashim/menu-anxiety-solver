@@ -70,7 +70,7 @@ export async function analyzeMenu(
     console.log('Preferences:', preferences);
 
     const model: GenerativeModel = genAI.getGenerativeModel({ 
-      model: "gemini-1.5-flash"  // Using stable model with better rate limits
+      model: "gemini-3-flash-preview"  // Using stable model with better rate limits
     });
 
     console.log('📸 Converting image...');
